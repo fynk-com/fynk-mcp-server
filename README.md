@@ -96,7 +96,6 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 ## What it deliberately cannot do
 
 - AI review, AI draft and AI search stay inside fynk and are not exposed as tools.
-- A contract gets its text from a template or an uploaded PDF. The assistant drafts templates, but it can't write free text into a contract directly.
 - Playbooks can be listed but not run.
 - Approval checkpoints can be read but not approved. The assistant names the approver; a person still decides.
 - It works from the PDF and a structured summary rather than raw clause text, so broad portfolio questions work well and forensic single-clause questions do not.
