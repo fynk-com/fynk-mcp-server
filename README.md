@@ -73,7 +73,7 @@ codex mcp add fynk --url https://app.fynk.com/mcp
 - **Templates**: read, duplicate, rewrite and publish them, and manage their dynamic fields, parties and signature blocks
 - **Account**: read users, teams, tags, metadata, document types and playbooks, and manage tags, teams, metadata and document types if you have the permission
 
-Full tool reference: [fynk MCP collection](https://help.fynk.com/en/articles/760207-fynk-mcp-collection)
+Example prompts: [fynk MCP collection](https://help.fynk.com/en/articles/760207-fynk-mcp-collection)
 
 ### Creating contracts from PDFs
 
