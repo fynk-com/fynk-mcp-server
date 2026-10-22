@@ -12,10 +12,10 @@
   },
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/fynk-com/fynk-mcp-server/main/assets/logo-512x512.png",
+      "src": "https://fynk.com/images/fynk-logo-gradient.png",
       "mimeType": "image/png",
       "sizes": [
-        "512x512"
+        "800x800"
       ]
     }
   ],
