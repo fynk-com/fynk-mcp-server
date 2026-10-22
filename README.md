@@ -36,13 +36,6 @@ Every client ends the same way: you sign in to fynk in your browser and approve 
 claude mcp add --transport http fynk https://app.fynk.com/mcp
 ```
 
-Or install the fynk plugin from this repository:
-
-```bash
-claude plugin marketplace add fynk-com/fynk-mcp-server
-claude plugin install fynk@fynk
-```
-
 Then run `/mcp` in a session, select fynk and choose **Authenticate**.
 
 **Codex**
