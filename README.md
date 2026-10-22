@@ -16,6 +16,8 @@ This repository documents the hosted MCP server for [fynk](https://fynk.com/), a
 | Requirements | A fynk account on Essential, Business or Pro, or an active 14-day trial. An account owner turns MCP on under Account settings → MCP |
 | MCP Registry | [`com.fynk.app/mcp`](https://registry.modelcontextprotocol.io/v0/servers?search=com.fynk.app/mcp) |
 
+> This repository holds documentation and configuration only. The server is operated by fynk GmbH and is not open source.
+
 ## Install
 
 Every client ends the same way: you sign in to fynk in your browser and approve the connection.
