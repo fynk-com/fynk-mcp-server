@@ -1,0 +1,27 @@
+{
+  "name": "fynk",
+  "version": "1.0.0",
+  "description": "Find, analyze, draft and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI client.",
+  "author": {
+    "name": "fynk GmbH",
+    "email": "support@fynk.com",
+    "url": "https://fynk.com/"
+  },
+  "homepage": "https://fynk.com/en/integrations/mcp-server/",
+  "repository": "https://github.com/fynk-com/fynk-mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "fynk",
+    "contract",
+    "contracts",
+    "contract-management",
+    "clm",
+    "esignature",
+    "legal"
+  ],
+  "icon": "./assets/logo-512x512.png",
+  "documentationUrl": "https://help.fynk.com/en/articles/759041-connect-fynk-to-your-ai-assistant-with-mcp",
+  "supportUrl": "https://fynk.com/en/contact/",
+  "privacyPolicyUrl": "https://fynk.com/en/legal/terms/mcp-privacy-notice/",
+  "termsOfServiceUrl": "https://fynk.com/en/legal/terms/"
+}

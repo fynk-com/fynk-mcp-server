@@ -1,0 +1,15 @@
+{
+  "name": "fynk",
+  "description": "The fynk plugin for Claude Code, which connects the hosted fynk MCP server.",
+  "owner": {
+    "name": "fynk GmbH",
+    "email": "support@fynk.com",
+    "url": "https://fynk.com/"
+  },
+  "plugins": [
+    {
+      "name": "fynk",
+      "source": "./"
+    }
+  ]
+}
