@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fynk": {
+      "type": "http",
+      "url": "https://app.fynk.com/mcp"
+    }
+  }
+}
