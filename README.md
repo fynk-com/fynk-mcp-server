@@ -46,6 +46,16 @@ codex mcp add fynk --url https://app.fynk.com/mcp
 
 `codex mcp login fynk` runs the sign-in again if access is ever revoked.
 
+**Gemini CLI**
+
+```bash
+gemini extensions install https://github.com/fynk-com/fynk-mcp-server
+```
+
+Then run `/mcp auth fynk` in a session.
+
+**Kiro**: open **Powers**, choose **Add Custom Power** → **Import power from GitHub** and enter `https://github.com/fynk-com/fynk-mcp-server`.
+
 **Microsoft Copilot Studio**: in your agent, click **+** next to Tools, choose **Model Context Protocol** and click **Add**. Name `fynk`, description `fynk MCP Server`, the endpoint above, authentication **OAuth 2.0**, configuration type **Dynamic (with Discovery)**. Make sure the agent uses the signed-in user's permissions, not admin-level access.
 
 **Any client configured by file**, such as Cline or Zed (also in [`.mcp.json`](.mcp.json)):
@@ -106,6 +116,7 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 - [Setup guide](https://help.fynk.com/en/articles/759041-connect-fynk-to-your-ai-assistant-with-mcp)
 - [Announcement post](https://fynk.com/en/blog/fynk-mcp-server/)
 - [MCP privacy notice](https://fynk.com/en/legal/terms/mcp-privacy-notice/)
+- [Trust center](https://trust.fynk.com/)
 - [Contact](https://fynk.com/en/contact/)
 
 ## License

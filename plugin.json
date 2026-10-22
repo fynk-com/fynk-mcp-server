@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fynk",
+  "version": "1.0.0",
+  "description": "Find, analyze, draft and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI client.",
+  "author": {
+    "name": "fynk GmbH",
+    "email": "support@fynk.com",
+    "url": "https://fynk.com/"
+  },
+  "homepage": "https://fynk.com/en/integrations/mcp-server/",
+  "repository": "https://github.com/fynk-com/fynk-mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "fynk",
+    "contract",
+    "contracts",
+    "contract-management",
+    "clm",
+    "esignature",
+    "legal"
+  ]
+}
