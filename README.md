@@ -4,7 +4,7 @@
 
 This repository documents the hosted MCP server for [fynk](https://fynk.com/), a European contract lifecycle management platform. The server itself is hosted by fynk. There is nothing to install, build or run locally, and this repository contains no server code.
 
-**68 tools: 20 read-only, 48 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: create a contract from an approved template, from scratch or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your own fynk permissions allow.
+**68 tools: 20 read-only, 48 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: draft a new template, create contracts from it or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your own fynk permissions allow.
 
 ## Connection details
 
@@ -63,13 +63,14 @@ codex mcp add fynk --url https://app.fynk.com/mcp
 
 ## What your assistant can do
 
+- **Draft**: write a complete template from scratch, such as an NDA or a service agreement, with its parties, dynamic fields and signature blocks, then create contracts from it with the fields already filled in
 - **Find and analyze**: search your contracts, open one, read its summary, fields and metadata, download the latest PDF, and answer questions about it
 - **Create**: from a template, from scratch, by uploading a PDF, or by duplicating an existing contract
 - **Fill in**: dynamic fields, metadata values, tags and owning teams
 - **Parties and signatories**: add, update and remove them
 - **Move it along**: review, signing and done, with a clear list of anything that blocks the next stage
 - **Retire**: archive and restore
-- **Templates**: read them, create and duplicate them, rewrite their content, publish them, and manage their dynamic fields, parties and signature blocks
+- **Templates**: read, duplicate, rewrite and publish them, and manage their dynamic fields, parties and signature blocks
 - **Account**: read users, teams, tags, metadata, document types and playbooks, and manage tags, teams, metadata and document types if you have the permission
 
 Full tool reference: [fynk MCP collection](https://help.fynk.com/en/articles/760207-fynk-mcp-collection)
@@ -95,6 +96,7 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 ## What it deliberately cannot do
 
 - AI review, AI draft and AI search stay inside fynk and are not exposed as tools.
+- A contract gets its text from a template or an uploaded PDF. The assistant drafts templates, but it can't write free text into a contract directly.
 - Playbooks can be listed but not run.
 - Approval checkpoints can be read but not approved. The assistant names the approver; a person still decides.
 - It works from the PDF and a structured summary rather than raw clause text, so broad portfolio questions work well and forensic single-clause questions do not.
