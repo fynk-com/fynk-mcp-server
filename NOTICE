@@ -1,0 +1,9 @@
+The MIT license in LICENSE covers only the documentation and configuration
+files in this repository.
+
+The fynk service these files describe, including the MCP server at
+https://app.fynk.com/mcp, is proprietary software operated by fynk GmbH and is
+not licensed here.
+
+The fynk name and logo, including the files in assets/, are brand assets of
+fynk GmbH and are not covered by the license.

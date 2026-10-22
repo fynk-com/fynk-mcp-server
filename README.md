@@ -107,4 +107,4 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 
 ## License
 
-MIT, see [LICENSE](LICENSE). This covers the documentation in this repository; the fynk platform itself is a commercial hosted service.
+MIT, see [LICENSE](LICENSE). The license covers only the documentation and configuration files in this repository. It does not cover the fynk service, which is proprietary and operated by fynk GmbH, or the fynk name and logo; see [NOTICE](NOTICE).
