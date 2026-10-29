@@ -1,6 +1,6 @@
 # fynk MCP server
 
-> Find, analyze, draft and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI client.
+> Draft, find, analyze, update and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI tool.
 
 This repository documents the hosted MCP server for [fynk](https://fynk.com/), a European contract lifecycle management platform. The server itself is hosted by fynk. There is nothing to install, build or run locally, and this repository contains no server code.
 

@@ -1,7 +1,7 @@
 {
   "name": "fynk",
-  "version": "1.0.0",
-  "description": "Find, analyze, draft and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI client.",
+  "version": "1.0.1",
+  "description": "Draft, find, analyze, update and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI tool.",
   "author": {
     "name": "fynk GmbH",
     "email": "support@fynk.com"
