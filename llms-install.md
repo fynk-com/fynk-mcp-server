@@ -20,7 +20,7 @@ This is a **remote** MCP server. Do not clone this repository, install dependenc
 2. Do not ask the user for an API key, token, client ID or client secret. This server uses OAuth 2.1 with dynamic client registration, and none of these exist.
 3. Connect. The server responds with `401` and a `WWW-Authenticate` header that points to its protected-resource metadata. Follow the standard MCP OAuth flow.
 4. Give the user the authorization URL to open in a browser. They sign in to fynk and approve the connection.
-5. Once approved, list the tools to verify. A user with full permissions sees 68 tools; users with fewer permissions see fewer. If the list is empty, authentication did not complete.
+5. Once approved, list the tools to verify. A user sees up to 76 tools: only those their fynk permissions, the account's settings and its plan allow. If the list is empty, authentication did not complete.
 
 ## Tell the user about these if authentication fails
 
