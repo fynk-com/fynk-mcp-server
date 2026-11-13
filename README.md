@@ -4,7 +4,7 @@
 
 This repository documents the hosted MCP server for [fynk](https://fynk.com/), a European contract lifecycle management platform. The server itself is hosted by fynk. There is nothing to install, build or run locally, and this repository contains no server code.
 
-**68 tools: 20 read-only, 48 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: draft a new template, create contracts from it or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your own fynk permissions allow.
+**76 tools: 20 read-only, 56 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: draft a new template, create contracts from it or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, invite the people who work on it, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your fynk permissions, your account's settings and its plan allow.
 
 ## Connection details
 
@@ -78,10 +78,12 @@ Then run `/mcp auth fynk` in a session.
 - **Create**: from a template, from scratch, by uploading a PDF, or by duplicating an existing contract
 - **Fill in**: dynamic fields, metadata values, tags and owning teams
 - **Parties and signatories**: add, update and remove them
+- **People**: give someone access to a contract as owner, collaborator or viewer, send their invitation, change their role and revoke access
+- **Link**: record how contracts relate, such as a renewal of an earlier agreement, and remove the link
 - **Move it along**: review, signing and done, with a clear list of anything that blocks the next stage
 - **Retire**: archive and restore
 - **Templates**: read, duplicate, rewrite and publish them, and manage their dynamic fields, parties and signature blocks
-- **Account**: read users, teams, tags, metadata, document types and playbooks, and manage tags, teams, metadata and document types if you have the permission
+- **Account**: read users and open invitations, teams, tags, metadata, document types, parties and playbooks; with the permission, invite users, manage tags, teams, metadata and document types, and add or update the account's own parties
 
 Example prompts: [fynk MCP collection](https://help.fynk.com/en/articles/760207-fynk-mcp-collection)
 
