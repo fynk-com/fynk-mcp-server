@@ -24,7 +24,7 @@ Every client ends the same way: you sign in to fynk in your browser and approve 
 
 **Claude**: open [fynk in the Claude directory](https://claude.ai/directory/fynk) and click **Connect**.
 
-**ChatGPT** (Pro or Business): open [chatgpt.com/plugins](https://chatgpt.com/plugins) and click **+** next to the search box. If there is no **+**, turn on Settings → Security and login → **Developer mode** first. Name the plugin `fynk`, paste the endpoint into **Connection**, tick **I understand and want to continue**, click **Create**, then **Sign in with fynk**.
+**ChatGPT**: open [fynk in ChatGPT's plugin directory](https://chatgpt.com/plugins/plugin_asdk_app_6ac517e7ab8c8191a8bbbc5cff058d8a) and click **Install plugin**. As a fallback, developer mode still works (Pro or Business): open [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+** next to the search box (if there is no **+**, turn on Settings → Security and login → **Developer mode**), name the plugin `fynk`, paste the endpoint into **Connection**, tick **I understand and want to continue** and click **Create**.
 
 **Cursor**: [Add to Cursor](https://cursor.com/en/install-mcp?name=fynk&config=eyJ1cmwiOiJodHRwczovL2FwcC5meW5rLmNvbS9tY3AifQ%3D%3D), or Settings → MCP → **Add new MCP server** with name `fynk` and the endpoint above.
 
