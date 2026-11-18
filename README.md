@@ -115,7 +115,7 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 ## Links
 
 - [MCP server overview](https://fynk.com/en/integrations/mcp-server/)
-- [Setup guide](https://help.fynk.com/en/articles/759041-connect-fynk-to-your-ai-assistant-with-mcp)
+- [Setup guide](https://help.fynk.com/en/articles/4864684-connect-ai-tools-with-mcp)
 - [Announcement post](https://fynk.com/en/blog/fynk-mcp-server/)
 - [MCP privacy notice](https://fynk.com/en/legal/terms/mcp-privacy-notice/)
 - [Trust center](https://trust.fynk.com/)
