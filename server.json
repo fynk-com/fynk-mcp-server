@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.fynk.app/mcp",
   "title": "fynk MCP Server",
-  "description": "Draft, find, analyze, manage and sign contracts in fynk, the European contract management platform.",
-  "version": "1.0.1",
+  "description": "Draft, find, analyze, update and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI tool.",
+  "version": "1.0.2",
   "websiteUrl": "https://fynk.com/en/integrations/mcp-server/",
   "repository": {
     "url": "https://github.com/fynk-com/fynk-mcp-server",

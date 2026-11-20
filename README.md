@@ -24,7 +24,7 @@ Every client ends the same way: you sign in to fynk in your browser and approve 
 
 **Claude**: open [fynk in the Claude directory](https://claude.ai/directory/fynk) and click **Connect**.
 
-**ChatGPT**: open [fynk in ChatGPT's plugin directory](https://chatgpt.com/plugins/plugin_asdk_app_6ac517e7ab8c8191a8bbbc5cff058d8a) and click **Install plugin**. As a fallback, developer mode still works (Pro or Business): open [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+** next to the search box (if there is no **+**, turn on Settings → Security and login → **Developer mode**), name the plugin `fynk`, paste the endpoint into **Connection**, tick **I understand and want to continue** and click **Create**.
+**ChatGPT** (Pro or Business): open [chatgpt.com/plugins](https://chatgpt.com/plugins) and click **+** next to the search box. If there is no **+**, turn on Settings → Security and login → **Developer mode** first. Name the plugin `fynk`, paste the endpoint into **Connection**, tick **I understand and want to continue**, click **Create**, then **Sign in with fynk**.
 
 **Cursor**: [Add to Cursor](https://cursor.com/en/install-mcp?name=fynk&config=eyJ1cmwiOiJodHRwczovL2FwcC5meW5rLmNvbS9tY3AifQ%3D%3D), or Settings → MCP → **Add new MCP server** with name `fynk` and the endpoint above.
 
@@ -85,7 +85,7 @@ Then run `/mcp auth fynk` in a session.
 - **Templates**: read, duplicate, rewrite and publish them, and manage their dynamic fields, parties and signature blocks
 - **Account**: read users and open invitations, teams, tags, metadata, document types, parties and playbooks; with the permission, invite users, manage tags, teams, metadata and document types, and add or update the account's own parties
 
-Example prompts: [fynk MCP collection](https://help.fynk.com/en/articles/760207-fynk-mcp-collection)
+Example prompts: [What you can ask](https://help.fynk.com/en/articles/4864684-connect-ai-tools-with-mcp#what-you-can-ask)
 
 ### Creating contracts from PDFs
 
@@ -115,7 +115,7 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 ## Links
 
 - [MCP server overview](https://fynk.com/en/integrations/mcp-server/)
-- [Setup guide](https://help.fynk.com/en/articles/759041-connect-fynk-to-your-ai-assistant-with-mcp)
+- [Setup guide](https://help.fynk.com/en/articles/4864684-connect-ai-tools-with-mcp)
 - [Announcement post](https://fynk.com/en/blog/fynk-mcp-server/)
 - [MCP privacy notice](https://fynk.com/en/legal/terms/mcp-privacy-notice/)
 - [Trust center](https://trust.fynk.com/)
