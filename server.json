@@ -3,7 +3,7 @@
   "name": "com.fynk.app/mcp",
   "title": "fynk MCP Server",
   "description": "Draft, find, analyze, update and sign contracts in fynk from Claude, ChatGPT, Cursor or any AI tool.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "websiteUrl": "https://fynk.com/en/integrations/mcp-server/",
   "repository": {
     "url": "https://github.com/fynk-com/fynk-mcp-server",
