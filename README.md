@@ -4,7 +4,7 @@
 
 This repository documents the hosted MCP server for [fynk](https://fynk.com/), a European contract lifecycle management platform. The server itself is hosted by fynk. There is nothing to install, build or run locally, and this repository contains no server code.
 
-**76 tools: 20 read-only, 56 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: draft a new template, create contracts from it or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, invite the people who work on it, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your fynk permissions, your account's settings and its plan allow.
+**78 tools: 22 read-only, 56 that make changes.** Most contract platforms with an MCP server stop at reading. This one runs the whole lifecycle: draft a new template, create contracts from it or from an uploaded PDF, fill dynamic fields, add parties and signatories, set metadata, invite the people who work on it, move it through review and signing, tag it, hand it to a team and archive it. Your assistant only sees the tools your fynk permissions, your account's settings and its plan allow.
 
 ## Connection details
 
@@ -74,7 +74,7 @@ Then run `/mcp auth fynk` in a session.
 ## What your assistant can do
 
 - **Draft**: write a complete template from scratch, such as an NDA or a service agreement, with its parties, dynamic fields and signature blocks, then create contracts from it with the fields already filled in
-- **Find and analyze**: search your contracts, open one, read its summary, fields and metadata, download the latest PDF, and answer questions about it
+- **Find and analyze**: search your contracts, open one, read or search its full text, summary, fields and metadata, download the latest PDF, and answer questions about it
 - **Create**: from a template, from scratch, by uploading a PDF, or by duplicating an existing contract
 - **Fill in**: dynamic fields, metadata values, tags and owning teams
 - **Parties and signatories**: add, update and remove them
@@ -110,7 +110,6 @@ This takes two steps: the assistant asks fynk for a signed upload URL, then send
 - AI review, AI draft and AI search stay inside fynk and are not exposed as tools.
 - Playbooks can be listed but not run.
 - Approval checkpoints can be read but not approved. The assistant names the approver; a person still decides.
-- It works from the PDF and a structured summary rather than raw clause text, so broad portfolio questions work well and forensic single-clause questions do not.
 
 ## Links
 
